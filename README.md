@@ -1,23 +1,53 @@
-# 📈 Pro Stock Analyser Web App
+# 📈 Pro Stock Analyser – Advanced FinTech Dashboard
 
-A modern stock analysis web application built using Python and Streamlit.  
-The app provides real-time stock market data, financial metrics, stock comparison, and personalized watchlist management with a clean finance dashboard UI.
+A full-featured stock analysis web application built using Python and Streamlit.  
+This project provides real-time stock data, portfolio tracking, stock comparison, AI-based prediction, and a modern finance dashboard UI.
 
 ---
 
 ## 🚀 Features
 
-- 🔐 User Authentication (Login/Register)
-- 📊 Real-Time Stock Data (via yfinance API)
-- 📈 Interactive Price Charts
-- ⭐ Add / Remove Stocks from Watchlist
-- 🔄 Stock Comparison (Side-by-Side Graph)
-- 📉 52-Week High / Low
-- 💰 Market Cap, P/E Ratio, EPS, Volume
-- 🟢🔴 Auto Profit/Loss Indicator (Green/Red)
-- 🌙 Light & Dark Theme Toggle
-- 🏢 Company Logo Auto Fetch
-- 🎨 Modern Finance Dashboard UI with Animated Cards
+### 🔐 Authentication
+- User Registration & Login
+- SQLite Database Integration
+- Session-based Login Handling
+
+### 📊 Stock Dashboard
+- Real-Time Market Data (yfinance API)
+- Candlestick Charts (Plotly)
+- Volume Chart
+- 6-Month Historical Data
+- Company Logo Auto Fetch
+- Auto Profit/Loss Indicator (Green/Red)
+
+### ⭐ Watchlist
+- Add Stocks to Watchlist
+- Remove Stocks
+- User-specific Storage
+
+### 💼 Portfolio Tracker
+- Add Investment (Quantity & Buy Price)
+- Real-Time Profit/Loss Calculation
+- Total Portfolio Summary
+- Color-based P/L Indicator
+
+### 📈 Compare Stocks
+- Side-by-Side Graph Comparison
+- Interactive Plotly Charts
+- Theme-based Rendering
+
+### 🤖 AI Stock Prediction
+- Linear Regression Model
+- 7-Day Future Forecast
+- Historical vs Predicted Visualization
+- Machine Learning Integration (scikit-learn)
+
+### 🎨 Modern UI
+- Gradient Navbar
+- Glassmorphism Cards
+- Light/Dark Theme Toggle
+- Responsive Layout
+- Interactive Charts (Zoom, Hover)
 
 ---
 
@@ -27,9 +57,12 @@ The app provides real-time stock market data, financial metrics, stock compariso
 - Streamlit
 - SQLite
 - Pandas
+- NumPy
+- Plotly
 - yfinance API
+- Scikit-learn
 
 ---
 
 ## 📂 Project Structure
-# stock_analyser
+
