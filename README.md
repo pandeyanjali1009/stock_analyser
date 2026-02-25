@@ -65,4 +65,10 @@ This project provides real-time stock data, portfolio tracking, stock comparison
 ---
 
 ## 📂 Project Structure
+pro_stock_app/
+│
+├── app.py
+├── stock_app.db
+├── requirements.txt
+└── README.md
 
